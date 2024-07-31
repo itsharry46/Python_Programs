@@ -1,1 +1,3 @@
-./pyPrograms
+.DS_Store
+.idea/*
+pyPrograms/*
