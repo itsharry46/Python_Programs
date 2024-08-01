@@ -2,7 +2,6 @@
 
 # Defining the function with parameter input of number dataType
 def positive_negative(num: int):
-
     # If the number is 0 marking it as neutral number
     if num == 0:
         return f"The number {num} is neutral"
