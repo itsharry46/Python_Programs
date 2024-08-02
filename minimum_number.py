@@ -1,10 +1,10 @@
-# Write a program to find a maximum of two numbers
+# Write a program to find a minimum of two numbers
 
-def max_number(num1: int, num2: int):
+def min_number(num1: int, num2: int):
     if num1 == num2:
         return "Both the numbers are same"
 
-    return f"{num1} is the maximum number" if num1 > num2 else f"{num2} is the maximum number"
+    return f"{num1} is the minimum number" if num1 < num2 else f"{num2} is the minimum number"
 
 
 try:
@@ -12,7 +12,7 @@ try:
     number_one = int(input("Please Enter the first number: "))
     number_two = int(input("Please Enter the second number: "))
 
-    result = max_number(number_one, number_two)
+    result = min_number(number_one, number_two)
     print(result)
 
 except ValueError:
